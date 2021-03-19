@@ -9,18 +9,13 @@
 - Cynthia Pan
 - Tina Young
 ---
-**Design Updates**
+**Designs**
 
-<https://drive.google.com/drive/u/2/folders/1pRlsqAnw_hJ_YFJrRkRmyAgvkEO_ebgC>
-
-We updated some of the designs, please check the link above to view.
+https://drive.google.com/drive/folders/1qBveQcWIn5OZeYu9FiFq8jD7uC2an8zX?usp=sharing
 
 ---
-**Other Notes**
+**About the App**
 
-- We had issues with the screens not matching between our machines which caused difficulty 
-in applying css properties as we were not sure which display was correct.
-  - This caused problems with creating the mobile and tablet views.
-- Responsive view caused issues when we resized the screens.
+This app allows UC Davis graduates of 2020 to create a yearbook entry with information about themselves. Anyone can view these profiles and filter/search for graduates by name, major, college, gender, and birth month.
 
 ---
