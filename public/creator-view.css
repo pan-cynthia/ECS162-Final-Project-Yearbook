@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Pacifico&family=Staatliches&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+/*---------------------------------------------*/
+#creator-body{
+  height: 100vh;
+  background-color: var(--light-blue);
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+}
+
+.logout-button{
+  background-color: var(--dark-blue);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: x-large;
+  color: var(--yellow);
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+/*------------------- Left Side of Creator View -------------------*/
+/* contains image upload and description */
+#leftside {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+/*------------------- Image Upload -------------------*/
+#image-upload {
+  margin-top: 5%;
+  background-color: var(--grey);
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#default-image{
+  width:100%;
+}
+
+#uploaded-image {
+  width: 100%;
+}
+
+#description {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: var(--grey);
+  width: 75%;
+  height: 25%;
+  font-size: inherit;
+  font-family: 'Josefin Sans', sans-serif;
+  resize: none;
+}
+
+/*------------------- Right Side of Creator View -------------------*/
+/* contains questionnaire and submit buttion */
+#creator-submit-button{
+  background: var(--dark-blue);
+  color: var(--yellow);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: x-large;
+  width: 50%;
+  border-radius: 30px;
+  height: 80px;
+}
+
+@media (min-width: 600px) and (max-width: 1000px){
+  #creator-body{
+    overflow:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+}
+
+@media(max-width: 599px) {
+  #creator-body{
+    overflow:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+  
+  #description {
+    height: 10em;
+  }
+  
+}

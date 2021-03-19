@@ -1,0 +1,133 @@
+/*------------------- Search Fields -------------------*/
+#search-material2 {
+  color: var(--dark-blue);
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar2 {
+  background-color: var(--yellow);
+  margin-bottom: 25px;
+  width: 90%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dropdown2 {
+  background-color: var(--yellow);
+  margin-bottom: 25px;
+  width: 90%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-label2 {
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown-text2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#portrait-image2 {
+  width: 70%;
+}
+
+#info-view {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#info-view-container {
+  width: 100%;
+}
+
+/*
+#rightside {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+*/
+
+#description2 {
+  font-size: x-large;
+  background-color: var(--grey);
+  width: 70%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+@media (min-width: 600px) and (max-width: 1038px) {
+  #portrait-image2 {
+    width: 85%;
+    height: 80%;
+    margin-top: 60px;
+  }
+  
+  #info-view {
+    width: 90%;
+  }
+  
+  #leftside {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #description2 {
+    width: 90%;
+    height: 10em;
+  }
+}
+
+@media(max-width: 599px) {  
+  #search-material2{
+    font-size: medium;
+  }
+  
+  #portrait-image2 {
+    margin-bottom: 40px;
+  }
+  
+  #info-view {
+    width: 90%;
+  }
+  
+  #leftside {
+    height: 100%;
+    margin-top: 25%;
+  }
+  
+  #description2 {
+    width: 90%;
+    height: 10em;
+  }
+  
+  #creator-submit-button {
+    height: 3em;
+    font-size: medium;
+  }
+}
